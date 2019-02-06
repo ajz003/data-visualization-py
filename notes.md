@@ -4,6 +4,7 @@
 * `linewidth` parameter for thickness of line
 * `xlabel()` and `ylabel()`
 * `tick_params()`
+* `plt.plot(input_values, squares, linewidth=5)`
 * `plt.scatter(2, 4, s=200)` s is the size of dots
     * `edgecolor` removes edges on the dots
     * `c` changes the color, name or RGB
