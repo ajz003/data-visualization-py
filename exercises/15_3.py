@@ -12,7 +12,7 @@ while True:
     plt.figure(dpi=128, figsize=(10,6))
 
     point_numbers = list(range(rw.num_points))
-    plt.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolor='none', s=15)
+    plt.plot(rw.x_values, rw.y_values, linewidth=1)
 
     # Remove the axes.
     plt.axes().get_xaxis().set_visible(False)
