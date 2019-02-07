@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
-
 from random_walk import RandomWalk
+
+"""Keep generating random walk plots until user types 'n'"""
 
 # Keep making new walks, as long as the program is active
 while True:

@@ -18,3 +18,8 @@
 * `plt.axes().get_xaxis().set_visible(False)` to remove axis
 * `plt.figure(dpi=128, figsize=(10,6))`
     * `figsize` takes a tuple, which tells matplotlib the dimeions of the plotting window in inches
+
+# pygal and Dice
+
+* `randint()` returns a number between the starting value and the ending value or either
+* `count()` counts how many times a certain value appears
